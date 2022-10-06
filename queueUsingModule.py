@@ -29,3 +29,18 @@ print(que.get_nowait())
 print(que.get_nowait())
 print(que.get_nowait())
 # print(que.get_nowait())
+
+
+#implementing queue using PriorityQueue class from queue module
+import queue as q
+#as PriorityQueue give highest priority to lowest value 
+# and when we pop or remove element from the queue it removes lowest value
+que = q.PriorityQueue()
+que.put(20)
+que.put(10)
+que.put(60)
+que.put(5)
+print(que.get_nowait())
+print(que.get_nowait())
+print(que.get_nowait())
+print(que.get_nowait())
