@@ -1,2 +1,2 @@
-# data-structure-python
+# data-structure-algorithm-python
 learning and implementing 
